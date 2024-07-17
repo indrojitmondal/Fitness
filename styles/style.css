@@ -126,7 +126,7 @@
     /* height: auto; */
     /* border: 2px solid red; */
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1.3fr 0.7fr;
 
 }
 .banner-left{
@@ -172,8 +172,8 @@
     /* border: 1px solid white; */
     width: 150px;
     height: 60px;
-    top:360px;
-    left: -80px;
+    top:300px;
+    left: 80px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 5px;
     backdrop-filter: blur(10px);
@@ -186,7 +186,7 @@
     border: 1px solid white;
     width: 160px;
     height: 60px;
-    left: 500px;
+    left: 340px;
     top: 100px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 5px;
