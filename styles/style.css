@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* Shared styles */
+.inter-font{
+  font-family: "Inter", sans-serif;
+}
+
+.bg-color{
+    background-color:  black;
+}
+.fitness-bg-color{
+    color: rgb(230, 83, 60) ;
+}
+.heading-color{
+    color: rgb(255, 255, 255);
+}
+.pg-color{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* Navbar starts */
+.navbar{
+    width: 90%;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    gap: 40px;
+}
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
