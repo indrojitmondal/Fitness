@@ -42,7 +42,7 @@
 .btn-home{
     background-color:  rgb(230, 83, 60) ;
     color: rgb(255, 255, 255);
-    border-radius: 10px;
+    border-radius: 5px;
     text-align: center;
 }
 .btn-common{
@@ -101,8 +101,12 @@
 .nav-container{
     width:90%;
     margin: 2rem auto;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    /* justify-content: space-between;
+    align-items: center; */
+    grid-template-columns: repeat(2, 1fr);
+    /* justify-items: center; */
+    justify-content: center;
     align-items: center;
 
 }
@@ -115,9 +119,11 @@
 .menu{
     display: flex;
     gap:40px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 30px;
-    padding-left: 0px;
+    /* border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 30px; */
+   
+    width: 60%;
+    /* border: 1px solid red; */
 }
 .menubar{
     display: none;
@@ -164,7 +170,8 @@
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background-color:  rgb(230, 83, 60)
+    background-color:  rgb(230, 83, 60);
+    margin-left: 10px;
 }
 .banner-right{
     position: relative;
@@ -181,8 +188,8 @@
     align-items: center;
     gap: 5px;
     /* border: 1px solid white; */
-    width: 150px;
-    height: 60px;
+    width: 170px;
+    height: 80px;
     top: 450px;
     left: -15px;
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -191,19 +198,20 @@
     background: rgba(48, 48, 48, 0.54);
     padding: 10px;
     
+    
 }
 .card-workout{
     position: absolute;
     border: 1px solid white;
-    width: 160px;
-    height: 60px;
-    left: 340px;
+    width: 180px;
+    height: 80px;
+    left: 330px;
     top: 100px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 5px;
     backdrop-filter: blur(10px);
     background: rgba(48, 48, 48, 0.54);
-    padding: 10px;
+    padding: 20px;
     
 } 
 #banner-pg{
@@ -358,11 +366,13 @@
     }
    .menubar{
     display: block;
+    margin-left: 200px;
    } 
    .banner-left h3{
     margin-top: 0px;
     margin-bottom: 0px;
-}
+    }
+
    .banner-tittle-sz{
     font-size: 3rem;
    }
