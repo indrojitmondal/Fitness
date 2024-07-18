@@ -1,5 +1,4 @@
 
-
 *{
     box-sizing: border-box;
 }
@@ -40,11 +39,22 @@
     margin-left: 10px;
     border-radius: 10px;
 }
-.btn-primary{
+.btn-home{
     background-color:  rgb(230, 83, 60) ;
     color: rgb(255, 255, 255);
     border-radius: 10px;
-    text-align: center
+    text-align: center;
+}
+.btn-common{
+    background-color:  rgb(230, 83, 60) ;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    font-size: 1.125rem;
+    font-weight: 600px;
+    
 }
 .pg-color{
     color: rgba(255, 255, 255, 0.5);
@@ -269,6 +279,40 @@
 /* .habits-card h4{
     margin-left: 40px;
 } */
+/* Habits styles ends  */
+
+/* Run an extra mile styles starts */
+.run-an-extra-mile-container{
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+    margin-top: 60px;
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: 0.6fr .4fr;
+    background-color: rgb(34,34,34);
+    border-radius: 10px;
+}
+.run-an-extra-mile-right img{
+    width: 100%;
+}
+
+.run-an-extra-mile-left h3{
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+}
+.run-an-extra-mile-left p{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    /* width: 80%; */
+}
+.run-an-extra-mile-container{
+    padding: 40px;
+    box-sizing: border-box;
+
+}
+
 
 /* For Small Device */
 
@@ -292,7 +336,12 @@
    .habits-card-container{
     grid-template-columns: 1fr; 
     margin-left: 0;
-    gap:20px;
+    /* gap:10px; */
+   }
+   .run-an-extra-mile-container{
+    grid-template-columns: 1fr;
+    gap:30px;
+    /* display: none;  */
    }
    
 }
