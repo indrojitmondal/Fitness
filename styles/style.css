@@ -1,4 +1,3 @@
-
 *{
     box-sizing: border-box;
 }
@@ -297,7 +296,7 @@
     margin-top: 60px;
     /* border: 2px solid red; */
     display: grid;
-    grid-template-columns: 0.6fr .4fr;
+    grid-template-columns: 1.3fr .7fr;
     background-color: rgb(34,34,34);
     border-radius: 10px;
 }
@@ -314,6 +313,9 @@
     margin-top: 30px;
     margin-bottom: 60px;
     /* width: 80%; */
+    margin-left: 0;
+    /* border: 2px solid red; */
+    text-align: left;
 }
 .run-an-extra-mile-container{
     padding: 40px;
