@@ -203,6 +203,66 @@
     text-align: left;
     padding:10px;
 }
+/* Banner styles ends */
+
+/* Change your habits styles starts */
+.change-your-habits-container{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 60px;
+    /* border: 2px solid red; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    
+}
+.habits-heading-container{
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.change-your-habits-container h3{
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 10px;
+}
+.change-your-habits-container p{
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 30px;
+}
+.habits-card img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 1px dashed white;
+    
+}
+
+.habits-card h4,p,img{
+    
+ margin: 0;
+ padding: 0;
+}
+.habits-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.habits-card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    margin-left: -80px;
+    
+ }
+/* .habits-card h4{
+    margin-left: 40px;
+} */
 
 /* For Small Device */
 

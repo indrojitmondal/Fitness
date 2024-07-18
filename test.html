@@ -3,28 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boll</title>
+    <title>Document</title>
     <style>
-        .bol{
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            background-color:  rgb(230, 83, 60)
-        }
-        .card{
-            display: flex;
-            gap: 5px;
-        }
+       .habits-card img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 1px dashed white;  
+}
+  .habits-card{
+    width: 200px;
+    height: auto;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
     </style>
 </head>
 <body>
-    <div class="card">
-        <div class="bol">
-           
-        </div>
-        <div class="tutorial">
-            <span>350+ <br> <span>Video tutorial</span> </span>
-        </div>
+    <div class="habits-card">
+        <img src="images/habit3.png" alt="Practice">
+        <h4 class="heading-color common-sz">Practice</h4>
+        <p class="p-sz pg-color">We believe fitness should be <br> accessible to everyone</p>
     </div>
 </body>
 </html>
