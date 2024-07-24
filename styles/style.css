@@ -192,12 +192,11 @@
 }
 
 .bol{
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     background-color:  rgb(230, 83, 60);
-    margin-left: 10px;
-    border: 2px solid red;
+    margin-left: 5px;
 }
 .play-icon{
     width: 30px;
@@ -242,15 +241,15 @@
     align-items: center;
     gap: 5px;
     /* border: 1px solid white; */
-    width: 170px;
-    height: 80px;
+    width: 11rem;
+    height: 5.625rem;
     top: 450px;
     left: -15px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 5px;
     backdrop-filter: blur(10px);
     background: rgba(48, 48, 48, 0.54);
-    padding: 10px;
+    /* padding: 10px; */
     
     
 }
@@ -258,8 +257,8 @@
 .card-workout{
     position: absolute;
     border: 1px solid white;
-    width: 180px;
-    height: 80px;
+    width: 11.5rem;
+    height: 6.625rem;
     left: 300px;
     top: 140px;
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -269,6 +268,22 @@
     padding: 20px;
     
 } 
+.text500{
+    font-size: 2.2rem;
+    font-weight: 900;
+}
+.text350{
+    font-size: 1.3rem;
+    font-weight: 900;
+}
+.text-work-out{
+    font-size: .875rem;
+    font-weight: 400;
+}
+.text-video-tutorial{
+    font-size: 1rem;
+    font-weight: 400;
+}
 
 .banner-container{
     display: grid;
@@ -547,6 +562,7 @@ tbody >tr >td{
     padding-left: 10px;
     /* background-color: bisque; */
     background-color: #383838;
+    /* background-color: rgba(255, 255, 255, 0.6); */
     /* background-color: rgb(34,34,34); */
     /* color: white;
 
@@ -560,17 +576,26 @@ tbody >tr >td{
 input,select ::placeholder{
     /* color: #5d5d5d; */
     /* font-size: .8rem; */
-    color: rgba(255, 255, 255, 0.5);
+    /* color: rgba(255, 255, 255, 0.5); */
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    font-weight: 400;
 }
 select{
     /* color: #5d5d5d;
     color: white; */
     /* font-size: .8rem; */
     color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    font-weight: 400;
 }
 option{
     /* font-size: .8rem; */
     color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    font-weight: 400;
 }
 /* #in1{
     
@@ -675,7 +700,10 @@ img{
 .play-icon{
     display: none;
 }
-
+.text-video-tutorial{
+    font-size: 1rem;
+    font-weight: 400;
+}
 /* Creating Responsive for mobile devices */
 @media screen and (max-width:576px){
 
@@ -699,7 +727,9 @@ img{
         /* you have to check the background color for the specific section" */
         /* border: 2px solid red;  */
     }
+  
     .banner-right{
+        margin-top: 40px;
         margin-left: 20px;
     }
 
@@ -715,6 +745,44 @@ img{
     }
     .bol {
         display: none;
+    }
+   
+    .text500{
+        font-size: 1.5rem;
+        font-weight: 900;
+    }
+    .text-work-out{
+        font-size: .75rem;
+        font-weight: 400;
+    }
+   
+    .text-video-tutorial{
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    .card-tutorial{
+        
+        /* width: 170px;
+        height: 80px; */
+        top: 500px;
+        left: -15px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 5px;
+        backdrop-filter: blur(10px);
+        background: rgba(48, 48, 48, 0.54);
+        padding: 10px;
+        
+        
+    }
+    .card-workout{
+        
+        left: 280px;
+        top: 90px;
+        width: 10.8rem;
+        height: 5rem;
+        padding: 10px;
+        
+        
     }
     
 
