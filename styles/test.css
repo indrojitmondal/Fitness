@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+/* Shared styles */
+
+.bg-color{
+    background-color:  black;
+   
+}
+.fitness-bg-color{
+    color: rgb(230, 83, 60) ;
+}
+
+.heading-color{
+    color: rgb(255, 255, 255);
+}
+.join-btn{
+  
+    background-color:  rgb(230, 83, 60) ;
+    color: rgb(255, 255, 255);
+    width: auto;
+    height: auto;
+    padding: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+
+}
+
+.btn-home{
+    background-color:  rgb(230, 83, 60) ;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    text-align: center;
+}
+.btn-common{
+    background-color:  rgb(230, 83, 60) ;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    font-size: 1.125rem;
+    font-weight: 600px;
+    
+}
+.pg-color{
+    color: rgba(255, 255, 255, 0.5);
+}
+.fitness-sz{
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+.common-sz{
+    font-size: 1.13rem;
+    font-weight: 600;
+}
+.banner-tittle-sz{
+    font-size: 4.8rem;
+    font-weight: 900;
+}
+.sec-tittle-sz{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.p-sz{
+    font-size: 0.88rem;
+    font-weight: 400;
+}
+.bmi-h3-sz{
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+.footer-h3-sz{
+    font-size: 4.38rem;
+    font-weight: 800;
+}
+.trainer-name-sz{
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.trainer-tittle-sz{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.getstart-h3-sz{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.footer-link-sz{
+    font-size: 1.44rem;
+    font-weight: 400;
+}
+/* Shared styles end */
+
+
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+/* Header styles starts */
+.header-container{
+    width:90%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 20px;
+    border: 2px solid greenyellow;
+    padding-right: 100px;
+}
+.header-right{
+     display: flex;
+     justify-content: flex-end;
+     gap: 50px;
+     border: 2px solid red;
+
+    
+}
