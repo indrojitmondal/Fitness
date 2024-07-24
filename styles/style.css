@@ -180,12 +180,24 @@
     margin-left: 10px;
     border-radius: 10px;
 }
+.play-icon-for-desktop{
+    position: absolute;
+    top:235px;
+}
+.play-icon-for-desktop >img{
+    width: 45px;
+    height: 55px; 
+    /* background-color: red; */
+    /* border: 2px solid red; */
+}
+
 .bol{
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color:  rgb(230, 83, 60);
     margin-left: 10px;
+    border: 2px solid red;
 }
 .play-icon{
     width: 30px;
@@ -223,6 +235,7 @@
     top: 300px;
 } */
 
+
  .card-tutorial{
     position: absolute;
     display: flex;
@@ -231,7 +244,7 @@
     /* border: 1px solid white; */
     width: 170px;
     height: 80px;
-    top: 430px;
+    top: 450px;
     left: -15px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 5px;
@@ -241,6 +254,7 @@
     
     
 }
+
 .card-workout{
     position: absolute;
     border: 1px solid white;
@@ -658,8 +672,14 @@ img{
     height: 100%;
 }
 
+.play-icon{
+    display: none;
+}
+
 /* Creating Responsive for mobile devices */
 @media screen and (max-width:576px){
+
+
     .content-container{
         border: none;
     }
@@ -682,10 +702,22 @@ img{
     .banner-right{
         margin-left: 20px;
     }
+
     .banner-tittle-sz{
         font-size: 2.8rem;
         font-weight: 900;
     }
+    .play-icon-for-desktop{
+        display: none;
+    }
+    .play-icon{
+        display: block;
+    }
+    .bol {
+        display: none;
+    }
+    
+
     .banner-container,
     .habits-card-container
     {
