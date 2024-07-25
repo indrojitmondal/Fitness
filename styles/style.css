@@ -360,6 +360,12 @@
 /* Run an extra mile styles ends */
 
 /* Achieve your goals styles starts */
+.power-sz{
+    font-size: .8rem;
+    font-weight: 400;
+    line-height: 20px;
+
+}
 .achieve-your-fitness-goals-with-us-container
 {
     margin-top: 100px;
@@ -377,11 +383,11 @@
 }
 .achieve-row-1{
     display: grid;
-    grid-template-columns: 25% 35% 40%;
+    grid-template-columns: repeat(3, 1fr);
 }
 .achieve-row-2{
     display: grid;
-    grid-template-columns: 30% 40% 30%;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .achieve-row-1 > img{
@@ -423,7 +429,7 @@
 }
 .goal-naming4{
     position: absolute;
-    left: 80%;
+    left: 60%;
     top:70%;
     color: white;
     font-size: 18px;
@@ -431,16 +437,16 @@
 }
 .goal-naming5{
     position: absolute;
-    left: 20%;
-    top:20%;
+    left: 10%;
+    top:60%;
     color: white;
     font-size: 18px;
     font-weight: 400;
 }
 .goal-naming6{
     position: absolute;
-    left: 80%;
-    top:90%;
+    left: 10%;
+    top:70%;
     color: white;
     font-size: 18px;
     font-weight: 400;
@@ -785,9 +791,9 @@ img{
     }
     .card-workout{
         
-        left: 260px;
+        left: 250px;
         top: 90px;
-        width: 9rem;
+        width: 8.5rem;
         height: 4rem;
         padding: 10px;
         
