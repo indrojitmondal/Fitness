@@ -719,10 +719,11 @@ img{
         display: block;
     }
     .content-container{
+        width: 90%;
         margin: 0 auto;
         /* margin-top: 50px; */
-        margin-left: 20px;
-        margin-right: 20px;
+        /* margin-left: 20px;
+        margin-right: 20px; */
         /* background-color: black;  */
         /* you have to check the background color for the specific section" */
         /* border: 2px solid red;  */
@@ -730,7 +731,7 @@ img{
   
     .banner-right{
         margin-top: 40px;
-        margin-left: 20px;
+        margin-left: -40px;
     }
 
     .banner-tittle-sz{
@@ -748,38 +749,46 @@ img{
     }
    
     .text500{
-        font-size: 1.5rem;
+        font-size: 1rem;
+        font-weight: 900;
+    }
+    .text350{
+        font-size: .8rem;
         font-weight: 900;
     }
     .text-work-out{
-        font-size: .75rem;
+        font-size: .5rem;
         font-weight: 400;
     }
    
     .text-video-tutorial{
-        font-size: 1rem;
+        font-size: .8rem;
         font-weight: 400;
     }
     .card-tutorial{
         
         /* width: 170px;
         height: 80px; */
-        top: 500px;
-        left: -15px;
+        width: 10rem;
+        height: 4.625rem;
+        top: 27rem;
+        /* left: -.1rem; */
+       left: 40px;
         border: 1px solid rgba(255, 255, 255, 0.1);
         border-radius: 5px;
         backdrop-filter: blur(10px);
         background: rgba(48, 48, 48, 0.54);
         padding: 10px;
+        /* border: 2px solid red; */
         
         
     }
     .card-workout{
         
-        left: 280px;
+        left: 260px;
         top: 90px;
-        width: 10.8rem;
-        height: 5rem;
+        width: 9rem;
+        height: 4rem;
         padding: 10px;
         
         
@@ -790,6 +799,9 @@ img{
     .habits-card-container
     {
         grid-template-columns: 1fr;
+    }
+    .habits-heading-container{
+        margin-top: 30px;
     }
     .run-an-extra-mile-container{
         background-color: rgb(34,34,34);
