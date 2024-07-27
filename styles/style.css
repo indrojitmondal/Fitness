@@ -609,19 +609,34 @@ tbody >tr >td{
 .calculate-bmi-input-container > input, select{
     border-radius: 7px;
     padding-left: 10px;
-    /* background-color: bisque; */
     background-color: #383838;
-    /* background-color: rgba(255, 255, 255, 0.6); */
-    /* background-color: rgb(34,34,34); */
-    /* color: white;
-
-    color: rgba(255, 255, 255, 0.5); */
-    /* color: blue; */
-    /* color: black; */
+  
     border: none;
     outline: none;
   
 }
+.sex,.activity1{
+    border-radius: 7px;
+    padding-left: 10px;
+    background-color: #383838;
+  
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+ input{
+
+    background-color: #383838;
+    border: none;
+    outline: none;
+
+}
+
+  
+  
 input,select ::placeholder{
     /* color: #5d5d5d; */
     /* font-size: .8rem; */
