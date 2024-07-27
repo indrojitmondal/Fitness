@@ -378,6 +378,7 @@
     padding-top: 40px;
  
     background-color: rgb(34,34,34);
+    padding-bottom: 60px;
 }
 .achieve-row-container{
     margin-top: 60px;
@@ -435,6 +436,8 @@
     margin-top: 30px;
     border-left: 3px solid white;
     padding: 20px;
+    margin-left: 20px;
+    
 }
 .summary-sz{
     font-size: 1rem;
