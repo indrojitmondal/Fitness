@@ -586,6 +586,7 @@ td{
     height: 40px;
 
 }
+
 .age{
     grid-area: age;
     height: 40px;
@@ -623,50 +624,88 @@ tbody >tr >td{
     border: none;
     outline: none;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
-    color: white;
+    /* color: white; */
+}
+.sex{
+    position: relative;
+}
+.activity1{
+    position: relative;
+    /* border: 2px solid green; */
+    
 }
  input{
 
     background-color: #383838;
     border: none;
     outline: none;
+    
 
 }
 
   
   
-input,select ::placeholder{
+input::placeholder{
     /* color: #5d5d5d; */
     /* font-size: .8rem; */
     /* color: rgba(255, 255, 255, 0.5); */
     color: rgba(255, 255, 255, 0.6);
-    font-size: 1rem;
+    font-size: 14px;
     font-weight: 400;
-}
-select{
-    /* color: #5d5d5d;
-    color: white; */
-    /* font-size: .8rem; */
-    color: rgba(255, 255, 255, 0.5);
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 1rem;
-    font-weight: 400;
-}
-option{
-    /* font-size: .8rem; */
-    color: rgba(255, 255, 255, 0.5);
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 1rem;
-    font-weight: 400;
-}
-/* #in1{
+    /* border: 2px solid blue; */
+    /* height: auto; */
     
-   color: white;
-    
+}
 
-} */
+     select {
+        outline: none;
+        border: none;
+        background-color: #383838;
+        color: rgba(255, 255, 255, 0.6);
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+     
+        background-image: url('https://kit.fontawesome.com/b5a83736f2.js');
+        background-repeat: no-repeat;
+        background-position: right 10px center;
+        /* background-size: 20px;  */
+        /* border: 2px solid saddlebrown; */
+        margin-left: 30px;
+    }
+
+
+.sex::after {
+    content: '\f107'; /* FontAwesome down arrow icon */
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 600;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px; /* Change the size here */
+    
+}
+.activity1::after {
+    content: '\f107'; /* FontAwesome down arrow icon */
+    font-family: 'Font Awesome 5 Free';
+    /* font-family: inter;  */
+    font-weight: 600;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px; 
+    
+}
+
+
 /* BMI Calculator Chart styles ends */
 
 /* Meet out team styles starts */

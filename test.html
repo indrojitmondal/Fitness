@@ -6,13 +6,64 @@
     <title>Increase Select Icon Size</title>
     <script src="https://kit.fontawesome.com/b5a83736f2.js" crossorigin="anonymous"></script>
     <style>
-       img{
-        
-        color: white;
-       }
+        input {
+            padding-left: 10px;
+            border: none;
+            background-color: gray;
+        }
+
+        select {
+            outline: none;
+            border: none;
+            background-color: gray;
+            color: white;
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            padding: 10px;
+            background-image: url('https://kit.fontawesome.com/b5a83736f2.js');
+            background-repeat: no-repeat;
+            background-position: right 10px center;
+            background-size: 16px; /* Change the size here */
+        }
+
+        input::placeholder {
+            color: white;
+        }
+
+        .sex-container {
+            background-color: gray;
+            border: 2px solid red;
+            display: inline-block;
+            position: relative;
+        }
+
+        .sex-container::after {
+            content: '\f107'; /* FontAwesome down arrow icon */
+            font-family: 'Font Awesome 5 Free';
+            font-weight: 900;
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            pointer-events: none;
+            color: white;
+            font-size: 16px; /* Change the size here */
+        }
+
+        select {
+            padding-right: 30px; /* Adjust padding to prevent text overlap */
+        }
     </style>
 </head>
 <body>
-  <img src="images/down-arrow.png" alt="">
+  <div class="sex-container">
+    <input type="text" name="" id="" placeholder="Sex"> 
+    <select name="sex" id="">
+      <!-- <option value="asd">Option 1</option>
+      <option value="qwe">Option 2</option>
+      <option value="zxc">Option 3</option> -->
+    </select>
+  </div>
 </body>
 </html>
