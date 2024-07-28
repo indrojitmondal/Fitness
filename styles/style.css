@@ -657,7 +657,7 @@ input::placeholder{
     /* border: 2px solid blue; */
     /* height: auto; */
     
-}
+} 
 
      select {
         outline: none;
@@ -957,7 +957,10 @@ img{
     .footer-content,.footer-copyright{
         background-color:rgb(34,34,34);
     }
-    
+    .sec-tittle-sz{
+        font-size: 2rem;
+        font-weight: 900;
+    }
 }
 
 /* Responsive for medium devices */
