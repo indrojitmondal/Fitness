@@ -652,7 +652,7 @@ input::placeholder{
     /* font-size: .8rem; */
     /* color: rgba(255, 255, 255, 0.5); */
     color: rgba(255, 255, 255, 0.6);
-    font-size: 14px;
+    font-size: .875rem;
     font-weight: 400;
     /* border: 2px solid blue; */
     /* height: auto; */
@@ -673,7 +673,7 @@ input::placeholder{
         background-position: right 10px center;
         /* background-size: 20px;  */
         /* border: 2px solid saddlebrown; */
-        margin-left: 30px;
+        /* margin-left: 30px; */
     }
 
 
@@ -687,7 +687,7 @@ input::placeholder{
     transform: translateY(-50%);
     pointer-events: none;
     color: rgba(255, 255, 255, 0.6);
-    font-size: 14px; /* Change the size here */
+    font-size: .875rem; /* Change the size here */
     
 }
 .activity1::after {
@@ -701,7 +701,7 @@ input::placeholder{
     transform: translateY(-50%);
     pointer-events: none;
     color: rgba(255, 255, 255, 0.6);
-    font-size: 14px; 
+    font-size: .875rem; 
     
 }
 
