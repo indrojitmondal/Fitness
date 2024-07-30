@@ -44,14 +44,8 @@
     /* border: 2px solid red; */
 }
 .content-container{
+    width: 80%;
     margin: 0 auto;
-    margin-top: 50px;
-    margin-left: 150px;
-    margin-right: 150px;
-    /* background-image: linear-gradient(black,#232323 ); */
-    /* background-color: black; */
-     /* you have to check the background color for the specific section" */
-    /* border: 2px solid red; */
 }
 .pg-color{
     color: rgba(255, 255, 255, 0.5);
@@ -120,7 +114,8 @@
     border-radius: 16px;
     margin-right: 0px;
     /* background-color: cornflowerblue; */
-    width: 420px;
+    /* width: 420px; */
+    /* max-width: 420px; */
     padding: 1px;
     /* margin-left: -10px; */
     /* border: 2px solid red; */
@@ -179,6 +174,9 @@
     border: 1px solid white;
     margin-left: 10px;
     border-radius: 10px;
+}
+.banner-btn-container{
+    display: flex;
 }
 .play-icon-for-desktop{
     position: absolute;
@@ -243,31 +241,40 @@
     /* border: 1px solid white; */
     width: 11rem;
     height: 5.625rem;
-    top: 450px;
-    left: -15px;
+    /* top: 450px;
+    left: -15px; */
+    top: 70%;
+    left: 3%;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 5px;
     backdrop-filter: blur(10px);
     background: rgba(48, 48, 48, 0.54);
-    /* padding: 10px; */
+    padding: 10px;
     
     
 }
 
+
+
 .card-workout{
+        
+    /* left: 250px; */
     position: absolute;
-    border: 1px solid white;
-    width: 11.5rem;
-    height: 6.625rem;
-    left: 300px;
-    top: 140px;
+    /* top: 90px; */
+    /* transform: translateX(180%); */
+    top: 30%;
+    left: 70%;
+    
+    width: 11rem;
+    height: 5rem;
+    padding: 10px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 5px;
     backdrop-filter: blur(10px);
     background: rgba(48, 48, 48, 0.54);
-    padding: 20px;
     
-} 
+    
+}
 .text500{
     font-size: 2.2rem;
     font-weight: 900;
@@ -291,16 +298,24 @@
     grid-template-columns: .6fr .4fr;
     align-items: center;  
     /* border: 2px solid blue; */
+    margin-top: 20px;
 }
 /* Banner styles ends */
 
 
 /* Change your habits styles starts */
 
+.change-your-habits-container{
+    /* margin-top: 90px; */
+    margin-top: 100px;
+    /* border: 2px solid red; */
+}
+
 .habits-heading-container{
     display: flex;
     flex-direction: column;
     align-items: center;
+   
 }
 .habits-heading-container > p{
     text-align: center;
@@ -344,6 +359,7 @@
     padding: 30px;
     display: grid;
     grid-template-columns: 1.5fr 1fr;
+    margin-top: 90px;
 }
 .run-an-extra-mile-container > img{
     width: 100%;
@@ -575,15 +591,18 @@ td{
 .height1{
     grid-area: height1;
     height: 40px;
+    width: 100%;
 }
 .weight1{
     grid-area: weight1;
     height: 40px;
+    width: 100%;
 
 }
 .sex{
     grid-area: sex;
     height: 40px;
+    width: 100%;
 
 }
 
@@ -594,6 +613,7 @@ td{
 .activity1{
     grid-area: activity1;
     height: 40px;
+    width: 100%;
 }
 tbody >tr >td{
     color: #5d5d5d;
@@ -624,13 +644,12 @@ tbody >tr >td{
     border: none;
     outline: none;
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     align-items: center;
+    /* margin-right: 30px; */
     /* color: white; */
 }
-.sex{
-    position: relative;
-}
+
 .activity1{
     position: relative;
     /* border: 2px solid green; */
@@ -648,11 +667,8 @@ tbody >tr >td{
   
   
 input::placeholder{
-    /* color: #5d5d5d; */
-    /* font-size: .8rem; */
-    /* color: rgba(255, 255, 255, 0.5); */
     color: rgba(255, 255, 255, 0.6);
-    font-size: .875rem;
+    font-size: .87rem;
     font-weight: 400;
     /* border: 2px solid blue; */
     /* height: auto; */
@@ -660,55 +676,23 @@ input::placeholder{
 } 
  .span-level{
     color: rgba(255, 255, 255, 0.6);
-    font-size: .875rem;
+    font-size: .87rem;
     font-weight: 400;
  }
 
-     select {
+ select {
         outline: none;
         border: none;
         background-color: #383838;
         color: rgba(255, 255, 255, 0.6);
-        appearance: none;
-        -webkit-appearance: none;
-        -moz-appearance: none;
-     
-        background-image: url('https://kit.fontawesome.com/b5a83736f2.js');
-        background-repeat: no-repeat;
-        background-position: right 10px center;
-        /* background-size: 20px;  */
-        /* border: 2px solid saddlebrown; */
-        /* margin-left: 30px; */
-    }
+        margin-right: 20px;
+ }
 
 
-.sex::after {
-    content: '\f107'; /* FontAwesome down arrow icon */
-    font-family: 'Font Awesome 5 Free';
-    font-weight: 600;
-    position: absolute;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-    pointer-events: none;
-    color: rgba(255, 255, 255, 0.6);
-    font-size: .875rem; /* Change the size here */
-    
-}
-.activity1::after {
-    content: '\f107'; /* FontAwesome down arrow icon */
-    font-family: 'Font Awesome 5 Free';
-    /* font-family: inter;  */
-    font-weight: 600;
-    position: absolute;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-    pointer-events: none;
-    color: rgba(255, 255, 255, 0.6);
-    font-size: .875rem; 
-    
-}
+
+  
+ 
+
 
 
 /* BMI Calculator Chart styles ends */
@@ -812,6 +796,7 @@ img{
     font-size: 1rem;
     font-weight: 400;
 }
+
 /* Creating Responsive for mobile devices */
 @media screen and (max-width:576px){
 
@@ -879,9 +864,11 @@ img{
         height: 80px; */
         width: 10rem;
         height: 4.625rem;
-        top: 27rem;
+        /* top: 27rem;
         /* left: -.1rem; */
-       left: 40px;
+       /* left: 40px;  */
+       top: 50%;
+       left: 10%;
         border: 1px solid rgba(255, 255, 255, 0.1);
         border-radius: 5px;
         backdrop-filter: blur(10px);
@@ -891,15 +878,31 @@ img{
         
         
     }
+
     .card-workout{
         
-        left: 250px;
-        top: 90px;
-        width: 8.5rem;
+        /* left: 250px; */
+        position: absolute;
+        /* top: 90px;
+        transform: translateX(40%); */
+        top: 10%;
+        left: 60%;
+        
+        width: 9rem;
         height: 4rem;
         padding: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 5px;
+        backdrop-filter: blur(10px);
+        background: rgba(48, 48, 48, 0.54);
+        /* text-align: center; */
+        padding-left: 20px;
         
         
+    }
+    
+    .banner-container{
+        margin-top: 30px;
     }
     
 
@@ -967,7 +970,6 @@ img{
         font-weight: 900;
     }
 }
-
 /* Responsive for medium devices */
 @media screen and (min-width:577px) and (max-width: 992px) {
  
@@ -1024,6 +1026,7 @@ img{
         flex-direction: column;
         /* justify-content: center;
         align-items: center; */
+        /* border: 2px solid red; */
     }
 
     .banner-btn-container{
