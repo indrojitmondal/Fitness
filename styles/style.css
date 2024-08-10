@@ -707,7 +707,8 @@ input::placeholder{
 
 /* Meet out team styles starts */
 .meet-our-team-container{
-    margin-bottom: 60px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     /* border: 2px solid blue; */
 }
 .team-container{
@@ -731,12 +732,13 @@ input::placeholder{
     width: 100%;
     border-radius: 20px;
     border: 5px solid rgb(34,34,34);
+    /* backdrop-filter: blur(20px); */
     
 }
 .trainer-naming{
     position: absolute;
     left: 20px;
-    top:80%;
+    top:70%;
 }
 /* Meet our team styles ends */
 
@@ -803,6 +805,16 @@ img{
 .text-video-tutorial{
     font-size: 1rem;
     font-weight: 400;
+}
+.trainer-tittle-sz{
+    font-size: 1rem;
+    font-weight: 800px;
+    color: rgb(232, 225, 225);
+    
+}
+.trainer-name-sz{
+    font-size: 1.2rem;
+    font-weight: 800;
 }
 
 /* Creating Responsive for mobile devices */
@@ -969,9 +981,10 @@ img{
         background-color: rgb(34,34,34); 
         
     }
-    /* .meet-our-team-container{
-        margin-top: 40px;
-    } */
+    .meet-our-team-container{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
     .team-container{
         grid-template-columns: 1fr;
     }
@@ -1073,9 +1086,7 @@ img{
     .trainer-name-sz{
         font-size: 14px;
     }
-    .trainer-tittle-sz{
-        font-size: 10px;
-    }
+   
     .trainer-naming{
         top:70%;
     }
