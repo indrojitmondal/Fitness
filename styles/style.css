@@ -82,6 +82,7 @@
     height: 50px;
     font-size: 1.125rem;
     font-weight: 600px;
+    border: none;
     
 }
 .section-p-margin{
@@ -166,9 +167,11 @@
     color: rgb(255, 255, 255);
     width: auto;
     height: auto;
-    padding: 10px;
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 10px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+
 
 }
 .download-btn{
@@ -181,6 +184,10 @@
     border: 1px solid white;
     margin-left: 10px;
     border-radius: 10px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    outline: none;
+    
 }
 .banner-btn-container{
     display: flex;
